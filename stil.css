@@ -1,0 +1,193 @@
+
+.kontKlub {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(163, 163, 161, 0.521); 
+   
+    
+
+}
+
+.formaOdeljenje {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-content: center;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    min-width: 200px;
+    background-color: #b9b9b9;
+    border-radius: 5px; 
+    background-color: rgba(65, 58, 58, 0.507);
+    border: 0;
+   
+
+    
+}
+
+.kontOdeljenje {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    
+    
+}
+
+
+
+.red{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+.odeljenjeForme {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(163, 163, 161, 0.521); 
+    
+}
+
+.divZaCrtanje {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+   /* background-color: rgb(62, 63, 63); */
+   background-color: rgba(163, 163, 161, 0.521); 
+   
+
+}
+
+.formaDodaj, .formaIzmeni{
+    display: flex;
+    flex-direction: column;
+   margin-bottom: 5px;
+   margin-top:5px;
+   margin-left: 5px;
+   margin-right: 10px;
+   border: 0;
+   padding-bottom: 5px;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+    border-radius: 7px; 
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    justify-content: space-around ;
+    background-color: rgba(65, 58, 58, 0.507);
+    
+}
+
+.formaDodaj input, .formaIzmeni input, .formaOdeljenje input {
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 0.3em;
+    transition: all 250ms ease-in-out;
+    background-color: #f3f3f3;
+}
+
+.formaDodaj input:focus, .formaIzmeni input:focus, .formaOdeljenje input:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px 1px rgba(102, 204, 255, 0.8); }
+
+.zanr{
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color:darkslategray;
+    padding-bottom: 3px;
+    padding-top: 8px;
+}
+
+
+
+.filmDiv{
+    display: flex;
+    flex-direction: column;
+    flex:1 0 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border:0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.naslovFilm {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 5px;
+    
+}
+
+.naslovReziser
+{
+    text-align: center;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.dugmeInfo, .dugme{
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    color: #000000;
+    border-radius: 15px;
+    border: 0;
+    /*background: rgba(42, 49, 53, 0.666); */
+    font-family: "Open Sans", sans-serif;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.dugmeInfo:hover, .dugme:hover, .filmDiv:hover {
+    background-color: #2e627c;
+    /*color: #fff;*/
+    color: rgb(221, 213, 213);
+    box-shadow: 0px 0px 12px 1px #fff;
+}
+.dugmeInfo:focus, .dugme:focus {
+    outline: none;
+    background-color: #444547c9;
+    color: #fff;
+}
+
+.nazivForme {
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    padding-bottom: 8px;
+}
+
+.infoNaslov{
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgb(2, 2, 1);
+}
+
+.info{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgb(2, 2, 1);
+}
+
+.opcija{
+    margin-bottom: 3px;
+}
